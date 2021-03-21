@@ -6,7 +6,7 @@ def jogar():
     print("Bem vindo ao jogo de adivinhação!")
     print("*********************************")
 
-    # round - arrendonda | random.random chama na a função | 0 até 100
+    # round - arrendonda | random.random chama função | 0 até 100
     # ranrange mostra de 1 a 100
     numero_secreto = random.randrange(1,101)
     total_de_tentativas = 0
@@ -72,6 +72,3 @@ if(__name__ == "__main__"):
     # print("R$ {:09.2f}".format(1852.698))
     # d -> números inteiros
     # print("R$ {:06d}".format(1852))
-
-
-
